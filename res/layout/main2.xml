@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:weightSum="3">
+	<TableRow android:layout_width="match_parent"
+		android:weightSum="3" android:layout_height="match_parent"
+		android:layout_weight="1">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="match_parent" android:layout_weight="1"
+			android:gravity="center" android:layout_height="match_parent">
+			<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:src="@drawable/icon" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="One" />
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical"
+			android:layout_height="match_parent" android:layout_width="wrap_content"
+			android:layout_weight="1" android:gravity="center">
+			<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:src="@drawable/icon" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Two" />
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="match_parent" android:layout_weight="1"
+			android:gravity="center" android:layout_height="match_parent">
+			<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:src="@drawable/icon" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Three" />
+		</LinearLayout>
+	</TableRow>
+	<TableRow android:layout_width="match_parent"
+		android:weightSum="3" android:layout_height="match_parent"
+		android:layout_weight="1">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="match_parent" android:layout_weight="1"
+			android:gravity="center" android:layout_height="match_parent">
+			<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:src="@drawable/icon" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Four" />
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical"
+			android:layout_height="match_parent" android:layout_width="wrap_content"
+			android:layout_weight="1" android:gravity="center">
+			<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:src="@drawable/icon" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Five" />
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="match_parent" android:layout_weight="1"
+			android:gravity="center" android:layout_height="match_parent">
+			<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:src="@drawable/icon" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Six" />
+		</LinearLayout>
+	</TableRow>
+	<TableRow android:layout_width="match_parent"
+		android:weightSum="3" android:layout_height="match_parent"
+		android:layout_weight="1">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="match_parent" android:layout_weight="1"
+			android:gravity="center" android:layout_height="match_parent">
+			<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:src="@drawable/icon" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Seven" />
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="wrap_content" android:layout_height="match_parent"
+			android:layout_weight="1" android:gravity="center">
+			<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:src="@drawable/icon" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Eight" />
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="match_parent" android:layout_weight="1"
+			android:gravity="center" android:layout_height="match_parent">
+			<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:src="@drawable/icon" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Nine" />
+		</LinearLayout>
+	</TableRow>
+</TableLayout>
